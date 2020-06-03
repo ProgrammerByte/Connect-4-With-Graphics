@@ -37,7 +37,7 @@ public class Connect4Graphics extends ApplicationAdapter {
 		int[][] combinations = new int[][] {{1, 0, 0, 0, 2, 6},
 											{0, 1, 0, 0, 5, 3}, 
 											{1, 1, 0, 0, 2, 3}, 
-											{1, -1, 0, 4, 2, 6}}; //iDir, xDir, iMin, xMin, iMax, xMax
+											{1, -1, 0, 3, 2, 6}}; //iDir, xDir, iMin, xMin, iMax, xMax
 											
 		int iVal, xVal; //current coordinates
 		int xCount, oCount; //Counts player tiles in a line
