@@ -72,12 +72,10 @@ public class Connect4Graphics extends ApplicationAdapter {
 								xVal = x + b * combinations[a][1];
 								if (board[iVal][xVal] == 0) {
 									if (iVal != 5) {
-										if (board[iVal + 1][xVal] != 0) {
+										if (board[iVal + 1][xVal] == 0) {
 											fitness += 10;
 										}
-										break;
 									}
-									fitness += 10;
 									break;
 								}
 							}
